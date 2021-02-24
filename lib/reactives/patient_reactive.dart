@@ -37,9 +37,7 @@ class PatientReactive with ReactiveServiceMixin {
   }
 
   void autoSignIn() async {
-    if (_patientId.value == null) {
-      return;
-    } else {
+    if (_patientId.value.isNotEmpty) {
       _isSignedIn.value = true;
       _patient.value = await _firestoreService.fetchPatient(patientId);
     }
