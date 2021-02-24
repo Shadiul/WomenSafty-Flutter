@@ -1,0 +1,52 @@
+{
+  "users": [
+    {
+      "uid": 1,
+      "username": "User One",
+      "feeds": [
+        {
+          "date": "1/1/2021",
+          "oxygen_saturation": 10,
+          "heart_rate": 80,
+          "body_temperature": 96
+        },
+        {
+          "date": "1/1/2021",
+          "oxygen_saturation": 10,
+          "heart_rate": 80,
+          "body_temperature": 96
+        },
+        {
+          "date": "1/1/2021",
+          "oxygen_saturation": 10,
+          "heart_rate": 80,
+          "body_temperature": 96
+        }
+      ]
+    },
+    {
+      "uid": 2,
+      "username": "User Two",
+      "feeds": [
+        {
+          "date": "1/1/2021",
+          "oxygen_saturation": 10,
+          "heart_rate": 80,
+          "body_temperature": 96
+        },
+        {
+          "date": "1/1/2021",
+          "oxygen_saturation": 10,
+          "heart_rate": 80,
+          "body_temperature": 96
+        },
+        {
+          "date": "1/1/2021",
+          "oxygen_saturation": 10,
+          "heart_rate": 80,
+          "body_temperature": 96
+        }
+      ]
+    }
+  ]
+}
